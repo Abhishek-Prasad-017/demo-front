@@ -1,0 +1,30 @@
+/* Style the header */
+.header {
+    background: #fff;
+    border-bottom: 5px solid #0c95f5;
+    padding: 0px 10px;
+    height: 50px;
+    display: block;
+  
+    font-family: roboto,sans-serif;
+  }
+  
+  .h2 {
+    font-family: Roboto,sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #049fd9;
+    position: relative;
+    padding-left: 6px;
+  }
+  
+  .h1 {
+    font-family: Roboto,sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #000000;
+    position: relative;
+    padding-left: 6px;
+  }
