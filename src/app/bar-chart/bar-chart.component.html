@@ -1,12 +1,11 @@
-<div class="chart-wrapper" class="chart">
-    <canvas baseChart 
+<div class="chart-wrapper" class = "bar-chart-1">
+    <canvas baseChart class="bar"
     [datasets]="barChartData"
     [labels]="barChartLabels"
     [options]="barChartOptions"
     [plugins]="barChartPlugins"
     [legend]="barChartLegend"
     [chartType]="barChartType"
-    (chartHover)="chartHovered($event)"
-    (chartClick)="chartClicked($event)">
+    [options]="options">
   </canvas>
 </div>
