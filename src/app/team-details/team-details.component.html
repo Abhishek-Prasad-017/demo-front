@@ -1,0 +1,23 @@
+<div *ngIf='clicked' class="table-responsive">
+    <h3 class="header">Team Membership</h3>
+    <br>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col" class="tab-head">Admin Group Name</th>
+                <th scope="col" class="tab-head">Dev Group Name</th>
+                <th scope="col" class="tab-head">QA Group Name</th>
+                <th scope="col" class="tab-head">Release Group Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="value">{{data.adminGroupName}}</td>
+                <td class="value">{{data.developerGroupName}}</td>
+                <td class="value">{{data.qaGroupName}}</td>
+                <td class="value">{{data.releaseGroupName}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<br>
