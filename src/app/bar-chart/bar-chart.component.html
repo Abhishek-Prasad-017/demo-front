@@ -1,5 +1,5 @@
 <div class="chart-wrapper" class = "bar-chart-1">
-    <canvas baseChart class="bar"
+    <canvas baseChart 
     [datasets]="barChartData"
     [labels]="barChartLabels"
     [options]="barChartOptions"
@@ -8,4 +8,10 @@
     [chartType]="barChartType"
     [options]="options">
   </canvas>
+</div>
+<div class="bar-info">
+  <p>Graph showing the distribution of the no.of softwares for each owner.</p>
+  
+  <p>X-axis : no. of softwares</p>
+  <p>Y-axis : Owner's name</p>
 </div>
