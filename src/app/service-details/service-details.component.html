@@ -1,0 +1,96 @@
+<div *ngIf='clicked' class="table-responsive">
+    <h3 *ngIf='clicked' class="header">Service Details</h3>
+    <br>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col" class="tab-head">ASG NAME</th>
+
+            <th scope="col" class="tab-head"></th>
+            <th scope="col" class="tab-head">SERVICE NAME</th>
+        </tr>
+        <tr>
+            <td class="value">{{data.asgName}}</td>
+
+            <td></td>
+            <td class="value">{{data.serviceName}}</td>
+        </tr>
+        </thead>     
+        <br>
+        <tr>
+            <td>
+                <mat-card class="example-card">
+                    <mat-card-header>
+                        <img mat-card-image src="'../../assets/img/{{data.people[0]}}.jpg" class="rounded-circle " height="50px" width="40px" style="padding-top: 2px;">
+                        <mat-card-title class="value"><span> </span>{{data.people[0]}}</mat-card-title>
+                        <br>
+                        <mat-card-subtitle class="tab-head">{{data.designation[0]}}</mat-card-subtitle>
+                    </mat-card-header>
+                </mat-card>
+            </td>
+            <td>
+                <mat-card class="example-card">
+                    <mat-card-header>
+                        <img mat-card-image src="'../../assets/img/{{data.people[1]}}.jpg" class="rounded-circle "
+                            height="50px" width="40px">
+                        <mat-card-title class="value">{{data.people[1]}}</mat-card-title>
+                        <br>
+                        <mat-card-subtitle class="tab-head">{{data.designation[1]}}</mat-card-subtitle>
+                    </mat-card-header>
+                </mat-card>
+            </td>
+            <td>
+                <mat-card class="example-card">
+                    <mat-card-header>
+                        <img mat-card-image src="'../../assets/img/{{data.people[2]}}.jpg" class="rounded-circle "
+                            height="50px" width="40px">
+                        <mat-card-title class="value">{{data.people[2]}}</mat-card-title>
+                        <br>
+                        <mat-card-subtitle class="tab-head">{{data.designation[2]}}</mat-card-subtitle>
+                    </mat-card-header>
+                </mat-card>
+            </td>
+            <td>
+        </tr>
+        <br>
+        <br>
+        <tr>
+            <td>
+                <mat-card class="example-card">
+                    <mat-card-header>
+                        <img mat-card-image src="'../../assets/img/{{data.people[3]}}.jpg" class="rounded-circle "
+                            height="50px" width="40px">
+                        <mat-card-title class="value">{{data.people[3]}}</mat-card-title>
+                        <br>
+                        <mat-card-subtitle class="tab-head">{{data.designation[3]}}</mat-card-subtitle>
+                    </mat-card-header>
+                </mat-card>
+            </td>
+            <td>
+                <mat-card class="example-card">
+                    <mat-card-header>
+                        <img mat-card-image src="'../../assets/img/{{data.people[4]}}.jpg" class="rounded-circle "
+                            height="50px" width="40px">
+                        <mat-card-title class="value">{{data.people[4]}}</mat-card-title>
+                        <br>
+                        <mat-card-subtitle class="tab-head">{{data.designation[4]}}</mat-card-subtitle>
+                    </mat-card-header>
+                </mat-card>
+            </td>
+            <td>
+                <mat-card class="example-card">
+                    <mat-card-header>
+                        <img mat-card-image src="'../../assets/img/{{data.people[5]}}.jpg" class="rounded-circle "
+                            height="50px" width="40px">
+                        <mat-card-title class="value">{{data.people[5]}}</mat-card-title>
+                        <br>
+                        <mat-card-subtitle class="tab-head">{{data.designation[5]}}</mat-card-subtitle>
+                    </mat-card-header>
+                </mat-card>
+            </td>
+        </tr>
+        <br>
+        <br>
+    </table>
+</div>
+<br>
